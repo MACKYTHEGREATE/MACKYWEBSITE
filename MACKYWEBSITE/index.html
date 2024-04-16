@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TEATEA'S MAIN</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- bootstrap cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<header class="header fixed-top">
+
+   <div class="container">
+
+      <div class="row align-items-center">
+
+        <a href="index.html" class="logo mr-auto"><img src="logo.png" width="50" height="50" ></i>TeaTea's</a>
+  
+
+         <nav class="nav">
+            <a href="#index">Home</a>
+            <a href="termsandcondition.html">Terms and Condition</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="review.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+            <a href="videos.html">Videos</a>
+         </nav>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+         </div>
+
+      </div>
+
+   </div>
+
+</header>
+
+<!-- login form starts -->
+
+<div class="login-form">
+
+   <form action="">
+      <div id="close-login-form" class="fas fa-times"></div>
+
+      <a href="index.html" class="logo mr-auto"><img src="logo.png" width="50px" height="50px" ></i>TeaTea's</a>
+
+      <h3>Hello TeaTea's! Come and order a cup of Tea.</h3>
+      <input type="email" name="" placeholder="enter your email" id="" class="box">
+      <input type="password" name="" placeholder="enter your password" id="" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">remember me</label>
+         <a href="#">forgot password?</a>
+         
+      </div>
+      <input type="submit" value="login now" class="link-btn">
+      <p class="account">don't have an account? <a href="#">create one!</a></p>
+   </form>
+
+</div>
+
+<!-- login form ends -->
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="container">
+
+      <div class="row align-items-center text-center text-md-left min-vh-100">
+         <div class="col-md-6">
+            <span>WELCOME TO OUR WARM TEATEA'S</span>
+            <h3>"It’s rarest teatea's experience."</h3>
+            <a href="#" class="link-btn">get started</a>
+   </div>
+
+</section>
+
+<style type="text/css">
+ 
+ 
+   .gallery{
+      margin: 5% auto;
+      width: 210px;
+      height: 140px;
+      position: relative;
+      perspective: 1000px;
+   }
+   #carousel{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      transform-style: preserve-3d;
+      animation: rotation 20s infinite linear;
+   }
+   #carousel:hover{
+      animation-play-state: paused;
+   }
+   #carousel figure{
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 85%;
+      left: 20px;
+      top: 20px;
+
+      
+      overflow: hidden;
+      border: solid 1px #1a0505;
+   }
+   #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+   #carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+   #carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+   #carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+   #carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+   #carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+   #carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+   #carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+   #carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+   #carousel figure:nth-child(10) { transform: rotateY(360deg) translateZ(288px);}
+    
+   #carousel img{
+   
+      cursor: pointer;
+      transition: all 1s ease;
+      width:100%;
+   }
+   #carousel img:hover{
+        transform: scale(1.2,1.2);
+   }
+    
+   @keyframes rotation{
+      from{
+         transform: rotateY(0deg);
+      }
+      to{
+         transform: rotateY(360deg);
+      }
+   }
+   </style>
+   </head>
+    
+   <body>
+     
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-12">
+               <div class="div-center gallery">
+                  <div id="carousel">
+       <figure><img src="ads1.jpg" alt=""></figure>
+       <figure><img src="g-img-1.jpg" alt=""></figure>
+       <figure><img src="TeaTea’s_page-0002.jpg" alt=""></figure>
+       <figure><img src="g-img-2.jpg" alt=""></figure>
+       <figure><img src="TeaTea’s_page-0003.jpg" alt=""></figure>
+       <figure><img src="g-img-3.jpg" alt=""></figure>
+       <figure><img src="TeaTea’s_page-0004.jpg" alt=""></figure>
+      <figure><img src="g-img-4.jpg" alt=""></figure>
+       <figure><img src="TeaTea’s_page-0007.jpg" alt=""></figure>
+       <figure><img src="c2.jpg" alt=""></figure>
+                   </div>
+               </div>
+         </div>
+       </div>
+   </div>
+          
+   
+          </body> 
+
+          <section class="about" id="about">
+ 
+            <div class="container">
+         
+               <div class="row align-items-center">
+                  <div class="col-md-6">
+                     <img src="TeaTea’s_page-0005.jpg" class="w-100" alt="">
+                  </div>
+                  <div class="col-md-6">
+                     <h3 class="title">DOWNLOAD OUR APP NOW</h3>
+                     <p>Feeling hot for summer? or feeling cold during the rainy days? TeaTeas Cafe is here to give you
+                        the refreshment you need. Download our app TeaTeas to have a one tap delivery.
+                        
+                     </p>
+                     
+                     <div class="icons-container">
+                       
+                       
+                           
+                        <a href="https://www.apple.com/ph/app-store/" img src="appstore.png" class="w-70" alt="">
+                        
+                           <img src="appstore.png" class="w-50" alt="">
+                         
+                        </div>
+
+                      
+                        <div class="icons-container">
+                      
+                           
+                           <a href="https://play.google.com/store/games" img src="googleplay.png" class="w-70" alt="">
+                           
+                              <img src="googleplay.png" class="w-50" alt="">
+                            
+                           </div>
+                     </div>
+                  </div>
+               </div>
+         
+            </div>
+         
+        
+         </section>
+        
+
+<!-- home section ends -->
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+  <div class="container">
+      <h3>TEATEA'S.COM</h3>
+      <p>subscribe for latest updates</p>
+      <form action="">
+         <input type="email" name="" placeholder="enter your email" id="" class="email">
+         <input type="submit" value="subscribe" class="link-btn">
+      </form>
+  </div>
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer container">
+
+   <a href="index.html" class="logo mr-auto"><img src="logo.png" width="50" height="50" ></i>Teatea's</a>
+  
+
+   <p class="credit"> created by <span>Teatea's corp.</span> | all rights reserved 2023</p>
+
+   <div class="share">
+      <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+      <a href="https://www.tiktok.com/" class="fab fa-tiktok"></a>
+      <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+      <a href="https://twitter.com/" class="fab fa-twitter "></a>
+   </div>
+   
+</section>
+
+<!-- footer section ends -->
+
+
+ 
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="ex.js"></script>
+
+</body>
+</html>
